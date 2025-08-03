@@ -1,38 +1,45 @@
-# Danilo Promoção - Análise de Perdas por Ausência Digital
-
-Website especializado em análise de perdas financeiras e oportunidades perdidas devido à ausência de presença digital na Danilo Promoção.
+# R&L Data Solutions - Análise de Perdas Danilo Promoção
 
 ## 📊 Sobre o Projeto
 
-Este website apresenta uma análise detalhada dos impactos financeiros, operacionais e estratégicos decorrentes da ausência de presença digital da empresa Danilo Promoção, especializada em revestimentos cerâmicos em São Paulo.
+Análise detalhada dos prejuízos financeiros da Danilo Promoção por não ter presença digital. Este projeto demonstra como R$ 4,5 milhões/ano estão sendo perdidos e apresenta soluções para recuperação.
 
-## 🎯 Objetivo
+## 🚀 Tecnologias Utilizadas
 
-Demonstrar através de dados concretos e análises de mercado os prejuízos estimados de R$ 380.000,00/mês (R$ 4,5 milhões/ano) que a empresa está enfrentando por não ter e-commerce e estratégias digitais.
-
-## 📈 Principais Análises
-
-- **Perda de Vendas Diretas**: R$ 300.000/mês (e-commerce inexistente)
-- **Marketing Ineficaz**: R$ 30.000/mês (custo alto, baixo retorno)
-- **Visibilidade Reduzida**: R$ 50.000/mês (perda de clientes recorrentes)
-- **Ameaça Competitiva**: Risco de 5-10% de perda de mercado/ano
-
-## 🚀 Tecnologias
-
-- **React 18** - Framework JavaScript
+- **React 18** - Framework principal
 - **TypeScript** - Tipagem estática
 - **Vite** - Build tool e dev server
-- **Tailwind CSS** - Framework CSS
+- **Tailwind CSS** - Estilização
 - **Lucide React** - Ícones
+- **GitHub Actions** - CI/CD
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/          # Componentes React
+│   ├── Header.tsx      # Navegação principal
+│   ├── Hero.tsx        # Seção hero
+│   ├── Footer.tsx      # Rodapé
+│   └── ...            # Outros componentes
+├── assets/             # Recursos estáticos
+├── App.tsx            # Componente principal
+└── main.tsx           # Ponto de entrada
+```
 
 ## 🛠️ Instalação e Desenvolvimento
 
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
 ```bash
 # Clone o repositório
-git clone [url-do-repositorio]
+git clone https://github.com/alexabreup/rl-data-solutions-danilo-promocao.git
 
 # Entre no diretório
-cd rl-solutions-danilo-perdas-vendas
+cd rl-data-solutions-danilo-promocao
 
 # Instale as dependências
 npm install
@@ -41,42 +48,75 @@ npm install
 npm run dev
 ```
 
-O site estará disponível em `http://localhost:5173`
-
-## 📦 Build para Produção
-
+### Scripts Disponíveis
 ```bash
-# Gera os arquivos otimizados
-npm run build
-
-# Preview da build
-npm run preview
+npm run dev          # Servidor de desenvolvimento
+npm run build        # Build para produção
+npm run preview      # Preview do build
 ```
 
 ## 🌐 Deploy
 
-O site está configurado para deploy automático no **Netlify**:
+### GitHub Pages
+O projeto está configurado para deploy automático no GitHub Pages através do GitHub Actions.
 
-1. Conecte o repositório GitHub ao Netlify
-2. Configure as variáveis de build:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-3. Deploy automático a cada push para `main`
+**URL do site**: https://alexabreup.github.io/rl-data-solutions-danilo-promocao
 
-## 📊 Fontes dos Dados
+### Netlify
+Para deploy no Netlify:
 
-- **Anfacer** - Associação Nacional dos Fabricantes de Cerâmica
-- **FecomercioSP** - Federação do Comércio de São Paulo
-- **Nielsen/Compre & Confie** - Dados de e-commerce
-- **Google** - Pesquisas de comportamento do consumidor
-- **Benchmark** - Portobello Shop, Obramax, Leroy Merlin
+1. Conecte o repositório no Netlify
+2. Configure:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+3. Deploy automático a cada push no `main`
 
-## 📞 Contato
+## 📱 Funcionalidades
 
-- **Desenvolvido por:** R&L Data Solutions
-- **Especialização:** Análise de dados e transformação digital
-- **WhatsApp:** +55 11 94526-5110
+- **Análise de Perdas**: Detalhamento dos prejuízos financeiros
+- **Dashboard Interativo**: Visualização de dados em tempo real
+- **Benchmark Setorial**: Comparação com concorrentes
+- **Soluções Técnicas**: Propostas de implementação
+- **Design Responsivo**: Otimizado para todos os dispositivos
+
+## 🔧 Configuração de Domínio
+
+### Para configurar domínio personalizado:
+
+1. **Netlify**:
+   - Acesse Site Settings → Domain Management
+   - Adicione domínio personalizado
+   - Configure registros DNS conforme instruções
+
+2. **GitHub Pages**:
+   - Acesse Settings → Pages
+   - Configure domínio personalizado
+   - Adicione arquivo CNAME
+
+## 📊 Métricas do Projeto
+
+- **Perda Mensal**: R$ 380.000
+- **Perda Anual**: R$ 4.5 milhões
+- **Faturamento Perdido**: 25%
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 ## 📄 Licença
 
-Este projeto é privado e pertence à R&L Data Solutions.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 Contato
+
+- **Email**: contato@rldatasolutions.com.br
+- **Telefone**: +55 11 94526-5110
+- **LinkedIn**: [Ronaldo Pereira](https://www.linkedin.com/in/ronaldo-pereira-2a71b914a/)
+
+---
+
+**Desenvolvido com ❤️ por R&L Data Solutions**
